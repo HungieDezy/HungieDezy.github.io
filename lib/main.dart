@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import 'home/homeview.dart';
+//import 'navigation_bar/navigation_bar.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -15,7 +18,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const HomeView(title: 'Flutter Demo Home Page'),
+
+      
     );
-  } //testing.
+  }
 }
