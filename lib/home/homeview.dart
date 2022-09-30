@@ -11,20 +11,22 @@ class HomeView extends StatelessWidget {
       body: Column(
         children: <Widget>[
           const NavBar(),
-          const Padding(padding: EdgeInsets.all(15),),
+          const Padding(
+            padding: EdgeInsets.all(15),
+          ),
           Card(
             color: Colors.grey.shade400,
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(30),
-              ),
-              child: const Padding(
-                padding: EdgeInsets.all(8.0),
-                child: Text("Testing Body"),
-              ),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(30),
             ),
+            child: const Padding(
+              padding: EdgeInsets.all(8.0),
+              child: Text("Testing Body"),
+            ),
+          ),
         ],
       ),
     );
   }
-}
+}//testing
 
