@@ -1,6 +1,7 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Antonio', sans-serif;
 }
 
 nav {
@@ -29,7 +30,7 @@ nav {
     text-align: center;
 }
 
-.nav-links ul li{
+.nav-links ul li {
     list-style: none;
     display: inline-block;
     padding: 10px;
@@ -60,4 +61,17 @@ nav {
     color: #d9a816;
     text-decoration: none;
     font-size: 100pt;
+}
+
+.main {
+    text-decoration: none;
+    font-size: 25pt;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+}
+
+.caption {
+    font-size: 14pt;
+    width: 500px;
 }
