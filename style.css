@@ -4,6 +4,10 @@
     font-family: 'Antonio', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     align-items: center;
 }
@@ -57,6 +61,26 @@ nav {
     font-size: 20pt;
 }
 
+.scrollbuttons .nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #d9a816;
+    display: block;
+    margin: auto;
+    transition: 0.37s;
+}
+
+.scrollbuttons .nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.scrollbuttons .nav-links ul li a {
+    color: #d9a816;
+    text-decoration: none;
+    font-size: 20pt;
+}
+
 .motto {
     color: #d9a816;
     text-decoration: none;
@@ -74,4 +98,11 @@ nav {
 .caption {
     font-size: 14pt;
     width: 500px;
+}
+
+body3 img {
+    border-radius: 15px;
+    height: 500px;
+    width: auto;
+
 }
