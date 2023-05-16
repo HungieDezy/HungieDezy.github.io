@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale+1.0"> -->
+    <title>Hungie</title>
+    <link rel="stylesheet" href="restaurantFormsStyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <section class="header">
+        <nav>
+            <center>
+                <a href="index.html"><img src="images/Hungie-2_logo_transparent.png"
+                        style="width: 500px;height:500px;"></a>
+                <!-- <section class="Title">
+                <center>
+                    <h1 style="font-size:10vw">Hungie</h1>
+                </center>
+            </section> -->
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="updates.html">Updates</a></li>
+                    </ul>
+                </div>
+            </center>
+        </nav>
+    </section>
+
+    <section2 class="motto">
+        <center>
+
+            <body2>
+                Restaurant Forms
+            </body2>
+        </center>
+    </section2>
+
+    <section class="main">
+
+        <form id="survey-form">
+            <center>
+                <label for="restaurant-name">Name of Restaurant</label>
+                <input type="text" id="restaurant-name" name="restaurant-name" required><br>
+
+                <label for="location">Location / Address</label>
+                <input type="text" id="location" name="location" required><br>
+
+                <!-- <label for="hours-operation">Hours of Operation</label> MONDAY <br>
+                <input type="datetime-local" id="hours-operation" name="hours-operation" required> -->
+
+                <label>Allergens</label>
+            </center>
+            <div id="allergens">
+
+                <label class="checkbox-label" for="peanuts" style="font-size: 15pt;">
+                    <input type="checkbox" id="peanuts" name="allergens" value="peanuts">
+                    Peanuts
+                </label><br>
+
+                <label class="checkbox-label" for="treenuts" style="font-size: 15pt;">
+                    <input type="checkbox" id="treenuts" name="allergens" value="treenuts">
+                    Treenuts
+                </label><br>
+
+                <label class="checkbox-label" for="milk" style="font-size: 15pt;">
+                    <input type="checkbox" id="milk" name="allergens" value="milk">
+                    Milk
+                </label><br>
+
+                <label class="checkbox-label" for="eggs" style="font-size: 15pt;">
+                    <input type="checkbox" id="eggs" name="allergens" value="eggs">
+                    Eggs
+                </label><br>
+
+                <label class="checkbox-label" for="shellfish" style="font-size: 15pt;">
+                    <input type="checkbox" id="shellfish" name="allergens" value="shellfish">
+                    Shellfish
+                </label><br>
+
+                <label class="checkbox-label" for="finnedfish" style="font-size: 15pt;">
+                    <input type="checkbox" id="finnedfish" name="allergens" value="finnedfish">
+                    Fish
+                </label><br>
+
+                <label class="checkbox-label" for="wheat" style="font-size: 15pt;">
+                    <input type="checkbox" id="wheat" name="allergens" value="wheat">
+                    Wheat
+                </label><br>
+
+                <label class="checkbox-label" for="soy" style="font-size: 15pt;">
+                    <input type="checkbox" id="soy" name="allergens" value="soy">
+                    Soy
+                </label><br>
+
+                <label class="checkbox-label" for="sesame" style="font-size: 15pt;">
+                    <input type="checkbox" id="sesame" name="allergens" value="sesame">
+                    Sesame
+                </label><br>
+                <!-- add other allergens as needed -->
+            </div><br>
+
+            <center>
+                <label for="other-allergens">Other Allergens</label>
+                <input type="text" id="other-allergens" name="other-allergens"><br>
+
+                <input type="submit" value="Submit">
+        </form>
+
+        <script src="script.js"></script>
+        </center>
+    </section>
+
+
+
+
+
+
+</body>
+
+</html>
