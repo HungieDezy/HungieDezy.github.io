@@ -115,7 +115,35 @@
                 <input type="submit" value="Submit">
         </form>
 
-        <script src="script.js"></script>
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <!-- <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script> -->
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+        <!-- <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script> -->
+
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+
+            // Your web app's Firebase configuration
+            const firebaseConfig = {
+                apiKey: "AIzaSyDERbIQq1px2ynccnLz8p3kRGuc6xVbm1E",
+                authDomain: "hungie-99442.firebaseapp.com",
+                projectId: "hungie-99442",
+                storageBucket: "hungie-99442.appspot.com",
+                messagingSenderId: "221523656106",
+                appId: "1:221523656106:web:3cd361f4effbff649b3fd3"
+            };
+
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+        </script>
+
+        <script src="restaurantForms.js"></script>
         </center>
     </section>
 
